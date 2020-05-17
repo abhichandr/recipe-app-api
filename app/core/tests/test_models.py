@@ -28,7 +28,7 @@ class ModelTests(TestCase):
 
 
     def test_create_new_superuser(self):
-123456789
+
         user=get_user_model().objects.create_superuser(
             'test@londonappdev.com',
             'test123')
